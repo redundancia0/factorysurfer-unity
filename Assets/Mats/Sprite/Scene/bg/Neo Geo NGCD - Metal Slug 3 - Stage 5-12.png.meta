@@ -1,0 +1,2686 @@
+fileFormatVersion: 2
+guid: d993f53bad3a13b43b20a6ca9ddb5ee9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 604
+        width: 123
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b6e8b41a666044c8d90e71a8bf98e5
+      internalID: 734604849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 338
+        width: 3837
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9443b8f286fe7b4ab98b66588115410
+      internalID: -867157837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 301
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5480cfce85b832b4bb8e8023033b17fc
+      internalID: 1549646742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 301
+        width: 73
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4016d6264bd90cb45a35ed28b99fe058
+      internalID: -366934534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_4
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 186
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c8bb13066398149b93ee0342bad8dc
+      internalID: -870848919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_5
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 163
+        width: 62
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dbe3126f743c44a874fe52d5f846e6
+      internalID: -16677214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_6
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 34
+        width: 260
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9f11a96ad96fb42bbc67ce7833dffd
+      internalID: 301571259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 122
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270e273664cbf6b4aa31edd84106be33
+      internalID: 1094551594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 234
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941354ca3cad63b429ae9052b5f306d2
+      internalID: -203717721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 234
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cfea713c1cfd5408f4c770ef7bcac4
+      internalID: 2107750152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 234
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9815df987d5fd46885bc4d013cb31a
+      internalID: 114528988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 232
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a95ce69dcd07745b169c958f0a4932
+      internalID: 1339099734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 234
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66055aeb3bcb1584884519e898817cf0
+      internalID: -1582435788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_13
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 238
+        width: 99
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e02177f2edede146a259415d4ca2329
+      internalID: -1694284747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_14
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 253
+        width: 81
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ede4a3b93d4914aa800a80b484736e
+      internalID: -54243014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_15
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 240
+        width: 115
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa429ba8eeb3dfa4fa6e5ba8d4901d8f
+      internalID: -1680556006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_16
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 59
+        width: 154
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df7c925802957e4f97c2d6040df8995
+      internalID: 623404856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_17
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 59
+        width: 152
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88c625a07c77424fa1693d9a5d6929b
+      internalID: 1663383927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_18
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 163
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12977331eeb7c1c4696c73f2be50db0b
+      internalID: -808089258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_19
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 93
+        width: 50
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d812e84e04f3f409e3add6f1d551b2
+      internalID: -1848242928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_20
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 93
+        width: 50
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5931e877a85dd4f9660907b4f39337
+      internalID: 1678647529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_21
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 93
+        width: 52
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14befbb08820b5045a29e739df1c8d63
+      internalID: 1215271337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_22
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 163
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4983d8ff80fd5142b0e267139405bf9
+      internalID: 1565824338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_23
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 163
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65b18e920ef1284e88810e563c70889
+      internalID: -1139819791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_24
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 163
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a661541fbbc84f4c9a35d2ed6ea61e9
+      internalID: -766374325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_25
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 163
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5503f0d0a5d623649ba489c7b917742b
+      internalID: -1835200731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_26
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 163
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11173845ece7e7647a373a779329e859
+      internalID: 160307497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_27
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 163
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a966a46ea502d4fa52c67814ca9356
+      internalID: 2040282520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_28
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 163
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74e6e4ab0e2f3c4391594dc521dfbe1
+      internalID: -278366994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_29
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 163
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5714bcca3f63543a5b2e3c6665ebf0
+      internalID: -1285537349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_30
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 163
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d5c0efa20b60142b580fc61e7ea2cc
+      internalID: 1118779607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_31
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 209
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca411631a3b8ed841a42cca45102fc2f
+      internalID: 1776054326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_32
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 209
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad213efe7e521754bbb6463f84458fa1
+      internalID: 2000975242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_33
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 213
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e162d3aa7b89bd4aa09685817a38a21
+      internalID: 2097501927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_34
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 209
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a23566b07ce914faaadeec89b97949
+      internalID: 628922936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_35
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 209
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db80ccbd6d47b854bb5a9da293bcd179
+      internalID: 723406689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_36
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 207
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3747224b701042c4daab221036345a61
+      internalID: -1950261894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_37
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 207
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54690f63b221ac14488b8c8047749b25
+      internalID: -1632043494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_38
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 147
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033ef310334984b49b8f86b1b5b9332c
+      internalID: 918747805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_39
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 147
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc5fa6cd4e0d014ca13f5810adfa150
+      internalID: -1456566688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_40
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 147
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4866cef1a0defb34dab30b159cfe1931
+      internalID: -1106633530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_41
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 147
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f695d22497af354c95ac1911a3006da
+      internalID: -478275500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_42
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 147
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c550a5faf541046b3bbd11a729ba19
+      internalID: 1200190419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_43
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 147
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061013cece70c6b4fbb9ddc967419c14
+      internalID: -1638235855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_44
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 153
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a1dd68790475446a34d078ec280227
+      internalID: -2143288741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_45
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 147
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aae482b2fb52ec48b70c210ff4d2163
+      internalID: 529181883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_46
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 153
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a926627de0215428da677362f2c712
+      internalID: -2048444173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_47
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 145
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca274c67ee1abd448264a9b4fea34f4
+      internalID: 1556675619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_48
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 151
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d00a45988dcb745afdb9b00440d1fa
+      internalID: 1201494208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_49
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 145
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdfd7cc76a70e543bf87a70d7282671
+      internalID: 869979546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_50
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 93
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1085b21269f263d4ab5e8953d0492b27
+      internalID: -567803220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_51
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 93
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d316fe9d280f4e0428bb3bcb81704cd5
+      internalID: 668794913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_52
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 93
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6961c237598be2944ad18aa4bf41f078
+      internalID: -1931952172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_53
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 93
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3563f713a6967fd4683469c706c99c84
+      internalID: -1311709229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_54
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 93
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d28eae5bc22e6642b3f7e06c93f2bca
+      internalID: -963262240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_55
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 93
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afc6363bee506b48b17d95cbf631222
+      internalID: -2116524995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_56
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 93
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e6016e478f6d5458a83481e4562545
+      internalID: -538872119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_57
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 93
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21162495599f7da41af53557c06a6694
+      internalID: -2066947290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_58
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 93
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50577266f06c280439d1a1b500c73746
+      internalID: -1287420127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_59
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 93
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb3776f09a80b44481ab6cff0b25f32
+      internalID: -1948627049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_60
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 43
+        width: 88
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4dec38a59e6d346a1c1a4f750780c9
+      internalID: -1297462986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_61
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 43
+        width: 65
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fe953275d9a5b47b6aaff3866a5280
+      internalID: -336536417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_62
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 145
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119a4170e8b2dd144b63f3007a7c3ee9
+      internalID: 872608640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_63
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 145
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803a05162cfe95f4cb8bd15b7df3a3f0
+      internalID: -777428399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_64
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 145
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402b6a1ab3c34104d8ffa7e78bc4d2da
+      internalID: 1894692814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_65
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 147
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1425fc8dffd6a4489a470914d773e1
+      internalID: 593721450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_66
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 145
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef9241683a6ab34a88e00cf02bd85c1
+      internalID: -1138677864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_67
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 145
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2752f30b13ac3f47b31b3aa5be23670
+      internalID: -1935112382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_68
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 147
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0884a28db211184d87b2b104e530df1
+      internalID: -271343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_69
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 149
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7505e6226be7d074db5d616a3cc5eabe
+      internalID: -112580233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_70
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 147
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640b197c0b098e448827668895f3c8d8
+      internalID: 1555086479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_71
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 145
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f08b7068e5cf540a0f903c6d03a94b
+      internalID: -1684352155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_72
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 59
+        width: 139
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4266a9482ea9bc8488f8ddf8148e7210
+      internalID: -2122620673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_73
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 145
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b77376af20d0814c985975734f37264
+      internalID: 517808922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_74
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 145
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e5e4b676bb5b94a9823c80aec91081
+      internalID: -2008626718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_75
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 86
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32abc58591e3271428d8c414019ffcf9
+      internalID: 212687460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_76
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 86
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ba155ab3cde24498480116f5cbddd9
+      internalID: -1750887269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_77
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 103
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15377e60f9f794c46ab25624cc588a37
+      internalID: -732467904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_78
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 86
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b2921598984a5418c0828cddf1807a
+      internalID: 1059104801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_79
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 103
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07633e32269cd5146a2e59df2aefb698
+      internalID: -760384194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_80
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 86
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcb9c36e3ffacf4fb4d24ad3d5ff93c
+      internalID: -1261679578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_81
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 105
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d05d5cbfb03e1b47a360de109969bd1
+      internalID: 1131244609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_82
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 86
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169b874ad3f78f74eb8ca4bdf1110520
+      internalID: -252562231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_83
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 103
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489be32c0d6839942bfbd5e46e6f1be4
+      internalID: 1838215304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_84
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 86
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a293d125d468cb445a148c5ef898460f
+      internalID: -1458605759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_85
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 103
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58a90744fe148e43ad6d0f2c72172f4
+      internalID: 498288672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_86
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 84
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f6f5b6b454e8149b49d38f97c7d529
+      internalID: 62556147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_87
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 103
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be73a127e4ab4a45bffa753ad81420f
+      internalID: 1056692321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_88
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 86
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876b2ca35729f7c49a89b913d4c381cc
+      internalID: 2053100397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_89
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 103
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987f965301d884a4a9bcf4daa5167a56
+      internalID: 282060069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_90
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 86
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1896dfc762097804497d1344ab10d0c5
+      internalID: -242161979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_91
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 107
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4001580483b294186c5d1c9eb357e7
+      internalID: -1126771673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_92
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 107
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d5b950c9c391a4d8255747fe72b799
+      internalID: -1731592972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_93
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 107
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47cf5706f6812f4e9207c17fb9cff86
+      internalID: -1606818410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_94
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 109
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6f136d812f248488169f88c28c2f59
+      internalID: -904941130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_95
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 109
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaa9e95c9a84294b9005dfb06698e10
+      internalID: -340480075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_96
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 111
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85676821658e83548aba00dc2894a231
+      internalID: 322293348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_97
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 109
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2593c2f383b55545adf0cecafcf5a04
+      internalID: -347072622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_98
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 109
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a7e4b4f7a9a2e49b886722255a852c
+      internalID: -1917235451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_99
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 78
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c58fb9fbf22f34c84c3981a538d782
+      internalID: 604369730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_100
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 78
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fdedbf1f26a2f4abca33a6154379c0
+      internalID: -1840932379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_101
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 78
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f830604d3dc374cb41cdfd2898be36
+      internalID: -918314597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_102
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 78
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb93747ed63fd6b4c92030d8bba1589a
+      internalID: -1131518423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_103
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 80
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcb1e6e4254042449cd3526e413ad7e
+      internalID: -922634740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_104
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 78
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fd64fac2e45764f85287c0c2485dd5
+      internalID: 351379504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_105
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 78
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd80bdf945868044d9d169f537b9ebd8
+      internalID: -1314293966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_106
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 78
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08ef2f91d49c5d47810dea659d59dda
+      internalID: 2111871110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_107
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 78
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35c40ec3ae110941aff49d795b3a9bf
+      internalID: 498815472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_108
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 55
+        width: 75
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91110aee3eb64374fbcd45bfa73f0ff6
+      internalID: 1357525223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_109
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 34
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3380a9f1c76263746ab7581df4fbfcb0
+      internalID: -881776262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_110
+      rect:
+        serializedVersion: 2
+        x: 3451
+        y: 78
+        width: 125
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6d97d04e15c354a8cbdc2c01d4433d
+      internalID: 2018295993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_111
+      rect:
+        serializedVersion: 2
+        x: 3580
+        y: 78
+        width: 110
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2576774fea98b945883b57474a01ad4
+      internalID: 835714727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_112
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 78
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70880693f4b29cb4cb9e3507767ed040
+      internalID: -708863297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_113
+      rect:
+        serializedVersion: 2
+        x: 3742
+        y: 78
+        width: 115
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0156e9e03360b48b3eb43bfd5950f9
+      internalID: -846016844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_114
+      rect:
+        serializedVersion: 2
+        x: 3451
+        y: 43
+        width: 131
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d964d245d3167eb41a20ed1722020599
+      internalID: -1862649485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Stage 5-12_115
+      rect:
+        serializedVersion: 2
+        x: 3586
+        y: 43
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8809acc8cb9978849ac6319bf66597b3
+      internalID: 2067377894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_70: 1555086479
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_1: -867157837
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_102: -1131518423
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_67: -1935112382
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_30: 1118779607
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_65: 593721450
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_76: -1750887269
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_29: -1285537349
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_95: -340480075
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_36: -1950261894
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_27: 2040282520
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_96: 322293348
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_88: 2053100397
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_71: -1684352155
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_8: -203717721
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_110: 2018295993
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_16: 623404856
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_115: 2067377894
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_98: -1917235451
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_47: 1556675619
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_26: 160307497
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_14: -54243014
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_12: -1582435788
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_23: -1139819791
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_54: -963262240
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_90: -242161979
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_62: 872608640
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_50: -567803220
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_97: -347072622
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_11: 1339099734
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_31: 1776054326
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_64: 1894692814
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_0: 734604849
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_79: -760384194
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_107: 498815472
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_92: -1731592972
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_86: 62556147
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_59: -1948627049
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_10: 114528988
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_72: -2122620673
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_101: -918314597
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_20: 1678647529
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_82: -252562231
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_56: -538872119
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_61: -336536417
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_93: -1606818410
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_46: -2048444173
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_108: 1357525223
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_84: -1458605759
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_41: -478275500
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_87: 1056692321
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_85: 498288672
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_69: -112580233
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_28: -278366994
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_17: 1663383927
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_53: -1311709229
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_100: -1840932379
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_45: 529181883
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_7: 1094551594
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_74: -2008626718
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_9: 2107750152
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_89: 282060069
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_4: -870848919
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_112: -708863297
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_2: 1549646742
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_68: -271343
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_42: 1200190419
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_105: -1314293966
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_37: -1632043494
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_18: -808089258
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_5: -16677214
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_15: -1680556006
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_52: -1931952172
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_106: 2111871110
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_77: -732467904
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_66: -1138677864
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_21: 1215271337
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_109: -881776262
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_13: -1694284747
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_55: -2116524995
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_83: 1838215304
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_113: -846016844
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_73: 517808922
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_111: 835714727
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_35: 723406689
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_33: 2097501927
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_51: 668794913
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_58: -1287420127
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_104: 351379504
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_60: -1297462986
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_99: 604369730
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_32: 2000975242
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_34: 628922936
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_40: -1106633530
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_49: 869979546
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_19: -1848242928
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_44: -2143288741
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_43: -1638235855
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_75: 212687460
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_91: -1126771673
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_25: -1835200731
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_94: -904941130
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_22: 1565824338
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_24: -766374325
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_57: -2066947290
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_63: -777428399
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_6: 301571259
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_39: -1456566688
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_48: 1201494208
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_80: -1261679578
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_3: -366934534
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_38: 918747805
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_81: 1131244609
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_114: -1862649485
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_103: -922634740
+      Neo Geo NGCD - Metal Slug 3 - Stage 5-12_78: 1059104801
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
