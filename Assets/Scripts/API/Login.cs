@@ -1,7 +1,10 @@
+using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
 public static class Login
 {
@@ -68,6 +71,10 @@ public static class Login
     }
 
 
+    private static Sprite _userAvatar = null;
+    public static Sprite UserAvatar { get { return _userAvatar; } }
+
+
     private static LoginUserData _userData;
     public static LoginUserData USER_DATA
     {
@@ -98,8 +105,8 @@ public static class Login
 
     public static UnityEvent OnSetUserData = new UnityEvent();
     public static UnityEvent OnSetLeaderBoardData = new UnityEvent();
-
-
+    public static UnityEvent OnLogin = new UnityEvent();
+    public static UnityEvent<SKIN, int, Button, TMP_Text> OnBuy = new UnityEvent<SKIN, int, Button, TMP_Text>();
 
     public static IEnumerator SendLoginRequest(string usuario, string contrasena)
     {
@@ -116,17 +123,33 @@ public static class Login
         if (www.result == UnityWebRequest.Result.Success)
         {
             string jsonResponse = www.downloadHandler.text;
-            Debug.Log(jsonResponse);
             LoginResponse response = JsonUtility.FromJson<LoginResponse>(jsonResponse);
             if (response.message == "Inicio de sesión exitoso") {
                 USER_DATA = response.data;
+                OnLogin?.Invoke();
             } else {
                 USER_DATA = null;
             }
-            Debug.Log("LoginResponse = { " + response.message + " }");
-            Debug.Log("UserData = { " + response.data._id + " " + response.data.monedas + " " + response.data.rango + " " 
-                + response.data.puntuacion + " " + response.data.nombre + " " + response.data.correo + " }");
         }
+    }
+
+
+    public static IEnumerator BuySomething(SKIN _sKIN, int _numCoins, Button button, TMP_Text coinsText)
+    {
+        string url = "http://redundancia0.duckdns.org:8080/api/usuarios/restarMonedas/findbyid/" + USER_DATA._id; // Reemplaza con tu URL real
+
+        WWWForm form = new WWWForm();
+        if (USER_DATA != null)
+        {
+            form.AddField("monedas", _numCoins);
+
+            UnityWebRequest www = UnityWebRequest.Post(url, form);
+            yield return www.SendWebRequest();
+        }
+        else
+            Debug.LogWarning("Primero Logeate");
+
+        OnBuy?.Invoke(_sKIN, _numCoins, button, coinsText);
     }
 
 
@@ -145,17 +168,7 @@ public static class Login
 
             UnityWebRequest www = UnityWebRequest.Post(url, form);
             yield return www.SendWebRequest();
-
-            if (www.result == UnityWebRequest.Result.Success)
-            {
-                string jsonResponse = www.downloadHandler.text;
-                GuardarPartidaResponse response = JsonUtility.FromJson<GuardarPartidaResponse>(jsonResponse);
-                Debug.Log("A PELO " + jsonResponse + "\n");
-                Debug.Log("LoginResponse = { " + response.status + ": " + response.message + " }");
-                Debug.Log("UserData = { " + response.data._id + " " + response.data.monedas + " " + response.data.puntuacion + " }");
-            }
         }
-
 
         Debug.LogWarning("Primero Logeate");
     }
@@ -185,5 +198,27 @@ public static class Login
         }
     }
 
-    
+
+    public static IEnumerator GetUserSprite()
+    {
+        if (_userData != null)
+        {
+            UnityWebRequest www = UnityWebRequestTexture.GetTexture(USER_DATA.avatar);
+            yield return www.SendWebRequest();
+            if (www.result != UnityWebRequest.Result.Success)
+            {
+                Debug.Log(www.error);
+            }
+            else
+            {
+                Texture2D texture = DownloadHandlerTexture.GetContent(www);
+                if (texture == null)
+                    Debug.LogWarning("User Avatar = NULL");
+
+                _userAvatar = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0, 0));
+            }
+        }
+        else Debug.LogWarning("USER_DATA = NULL" );
+    }
+
 }

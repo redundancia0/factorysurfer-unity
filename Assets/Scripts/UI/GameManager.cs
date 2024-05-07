@@ -1,8 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public enum SCENE : int
 {
@@ -36,7 +35,7 @@ public class GameManager : MonoBehaviour
     private bool newRecord = false;
 
     private int currentCoins = 0;
-
+    
     private SKIN sKIN;
 
 
@@ -49,11 +48,8 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            int coins = PlayerPrefs.GetInt(totalCoins, -1);
-            if (coins > 0)
-            {
-                currentCoins = coins;
-            }
+            Login.OnLogin.AddListener(() => currentCoins = Login.USER_DATA.monedas);
+            Login.OnBuy.AddListener(EndPurchase);
             sKIN = (SKIN)PlayerPrefs.GetInt(currentSkinName, (int)SKIN.BIRD);
             DontDestroyOnLoad(gameObject);
         }
@@ -157,7 +153,17 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
-    public void UnlockSkin(SKIN _sKIN, int _numCoins)
+    public void UnlockSkin(SKIN _sKIN, int _numCoins, Button button, TMP_Text coinsText)
+    {
+        if (currentCoins < _numCoins)
+            return;
+
+        StartCoroutine(Login.BuySomething(_sKIN, _numCoins, button, coinsText));
+
+        PlayerPrefs.Save();
+    }
+
+    private void EndPurchase(SKIN _sKIN, int _numCoins, Button button, TMP_Text coinsText)
     {
         currentCoins -= _numCoins;
         PlayerPrefs.SetInt(totalCoins, currentCoins);
@@ -171,8 +177,9 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt(tankSkinName, 1);
             sKIN = SKIN.TANK;
         }
-        
-        PlayerPrefs.Save();
+
+        coinsText.text = "" + currentCoins;
+        button.GetComponent<TMP_Text>().text = "EQUIP";
     }
 
     public bool CanBuyIt(int _numCoins)

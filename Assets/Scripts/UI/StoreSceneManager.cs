@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,14 +21,21 @@ public class StoreSceneManager : MonoBehaviour
     [SerializeField]
     private string buyText, equipText;
 
+    [SerializeField]
+    private UserPanelUI userNameAndImage;
+    
+
     private void Awake()
     {
+        if (Login.USER_DATA != null)
+            userNameAndImage.gameObject.SetActive(true);
+
         SetUpButton();
     }
 
     void Start()
     {
-        numCoinsText.text = "X " + GameManager.Instance.GetCurrentNumOfCoins();
+        numCoinsText.text = GameManager.Instance.GetCurrentNumOfCoins().ToString();
         armorPriceText.text = armorPrice.ToString();
         tankPriceText.text = tankPrice.ToString();
     }
@@ -41,14 +49,12 @@ public class StoreSceneManager : MonoBehaviour
                 GameManager.Instance.SetSkin(SKIN.BIRD);
             });
 
+        /// TANK BUTTON
         if (GameManager.Instance.IsThisSkinUnlock(SKIN.TANK))
-        {
             tankButtonText.text = equipText;
-        }
         else
-        {
             tankButtonText.text = buyText;
-        }
+
         tankButton.onClick.RemoveAllListeners();
         tankButton.onClick.AddListener(
             delegate ()
@@ -59,18 +65,19 @@ public class StoreSceneManager : MonoBehaviour
                 }
                 else if (GameManager.Instance.CanBuyIt(tankPrice))
                 {
-                    GameManager.Instance.UnlockSkin(SKIN.TANK, tankPrice);
+                    GameManager.Instance.UnlockSkin(SKIN.TANK, tankPrice, tankButton, numCoinsText);
                 }
             });
 
+
+
+        /// ARMOR BUTTON
         if (GameManager.Instance.IsThisSkinUnlock(SKIN.ARMOR))
-        {
             armorButtonText.text = equipText;
-        }
         else
-        {
             armorButtonText.text = buyText;
-        }
+
+
         armorButton.onClick.RemoveAllListeners();
         armorButton.onClick.AddListener(
             delegate ()
@@ -81,7 +88,7 @@ public class StoreSceneManager : MonoBehaviour
                 }
                 else if (GameManager.Instance.CanBuyIt(armorPrice))
                 {
-                    GameManager.Instance.UnlockSkin(SKIN.ARMOR, armorPrice);
+                    GameManager.Instance.UnlockSkin(SKIN.ARMOR, armorPrice, armorButton, numCoinsText);
                 }
             });
 

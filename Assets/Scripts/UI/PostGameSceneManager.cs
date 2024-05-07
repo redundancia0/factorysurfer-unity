@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,8 +15,14 @@ public class PostGameSceneManager : MonoBehaviour
     [SerializeField]
     private string distancePhrase, coinsPhrase, pointsPhrase, newRecordPhrase;
 
+    [SerializeField]
+    private GameObject userNameAndImage;
+
     private void Awake()
     {
+        if (Login.USER_DATA != null)
+            userNameAndImage.gameObject.SetActive(true);
+
         SetUpButtons();
     }
 

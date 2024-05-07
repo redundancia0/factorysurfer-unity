@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public static class HUDActions
 {
@@ -16,6 +18,11 @@ public class HUD : MonoBehaviour
 
     [SerializeField]
     private TMPro.TextMeshProUGUI distanceText;
+
+    [SerializeField]
+    private GameObject userNameAndImage;
+    private Image userImage;
+    private TMP_Text userNameText;
 
     private int coinNum = 0;
     private float distance = 0.0f;
@@ -37,6 +44,15 @@ public class HUD : MonoBehaviour
     {
         HUDActions.AddCoin += AddCoin;
         HUDActions.UpdateDistance += UpdateDistance;
+
+        if(Login.USER_DATA != null)
+        {
+            userImage = userNameAndImage.GetComponentInChildren<Image>();
+            userNameText = userNameAndImage.GetComponentInChildren<TMP_Text>();
+            userNameAndImage.gameObject.SetActive(true);
+            userImage.sprite = Login.UserAvatar;
+            userNameText.text = Login.USER_DATA.nombre;
+        }     
     }
 
     private void OnDisable()

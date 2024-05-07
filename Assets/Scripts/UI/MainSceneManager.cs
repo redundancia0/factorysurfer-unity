@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using TMPro;
 
 public class MainSceneManager : MonoBehaviour
 {
@@ -27,6 +28,9 @@ public class MainSceneManager : MonoBehaviour
 
     [SerializeField]
     private Transform poolRecord;
+
+    [SerializeField]
+    private GameObject userNameAndImage;
 
     public UnityEvent OnLoginSucces, OnLoginDenied;
 
@@ -126,6 +130,12 @@ public class MainSceneManager : MonoBehaviour
         });
 
         _loadingImage.SetActive(false);
+
+        if (Login.USER_DATA != null)
+            userNameAndImage.gameObject.SetActive(true);
+        else
+            userNameAndImage.gameObject.SetActive(false);
+        
     }
 
     private void OnEnable()
@@ -170,9 +180,14 @@ public class MainSceneManager : MonoBehaviour
     private IEnumerator LoginButton(string user, string password)
     {
         yield return StartCoroutine(Login.SendLoginRequest(user, password));
+        yield return StartCoroutine(Login.GetUserSprite());
+
         if (Login.USER_DATA == null)
             OnLoginDenied?.Invoke();
         else
+        {
             OnLoginSucces?.Invoke();
+            userNameAndImage.gameObject.SetActive(true);
+        }
     }
 }
